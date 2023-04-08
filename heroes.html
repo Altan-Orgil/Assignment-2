@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota 2 Heroes</title>
+    <link rel="stylesheet" href="herostyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="ao-heropage">
+        <div class="ao-header ao-header2">
+            <div class="ao-headercontent">
+                <a class="ao-topleftlogo" href="index.html"></a>
+                <div class="ao-topmiddle">
+                    <div class="ao-hovergame">
+                        <div class="ao-games ao-same ao-gamehover">
+                           game
+                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_over.png" alt="">
+                        </div>               
+                        <ul class="ao-hidden">
+                            <li class="ao-droptxt pat"><a href="">Patches</a></li>
+                            <li class="ao-droptxt gplay"><a href="">Gameplay Updates</a></li>
+                            <li class="ao-droptxt prup"><a href="">Previous Update</a></li>                       
+                        </ul>
+                    </div>
+                    <a class="ao-same selected" href=""><span class="">Heroes</span></a>
+                    <a class="ao-same" href=""><span class="p">News</span></a>
+                    <a class="ao-same" href=""><span class="p">Esports</span></a>
+                </div>
+                <div class="ao-topright">
+                    <div class="ao-accountlanguage">
+                        <a class="ao-login" href="">Login</a>
+                        <div class="ao-languageselect">
+                            <div>
+                                <div class="ao-languageselect2">
+                                    <div class="ao-languageicon"></div>
+                                    <span>Select Language</span>
+                                    <img class="ao-languagearrow" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_over.png" alt="">
+                                </div>
+                            </div>
+                            <div class="ao-languagelist">
+                                <ul>
+                                <li class="lanbg">English</li>
+                                <li class="lanbg">Español - España (Spanish - Spain)</li>
+                                <li class="lanbg">Français (French)</li>
+                                <li class="lanbg">Italiano (Italian)</li>
+                                <li class="lanbg">Deutsch (German)</li>
+                                <li class="lanbg">Ελληνικά (Greek)</li>
+                                <li class="lanbg">한국어 (Korean)</li>
+                                <li class="lanbg">简体中文 (Simplified Chinese)</li>
+                                <li class="lanbg">繁體中文 (Traditional Chinese)</li>
+                                <li class="lanbg">Русский (Russian)</li>
+                                <li class="lanbg">ไทย (Thai)</li>
+                                <li class="lanbg">日本語 (Japanese)</li>
+                                <li class="lanbg">Português (Portuguese)</li>
+                                <li class="lanbg">Português - Brasil (Portuguese - Brazil)</li>
+                                <li class="lanbg">Polski (Polish)</li>
+                                <li class="lanbg">Dansk (Danish)</li>
+                                <li class="lanbg">Nederlands (Dutch)</li>
+                                <li class="lanbg">Suomi (Finnish)</li>
+                                <li class="lanbg">Norsk (Norwegian)</li>
+                                <li class="lanbg">Svenska (Swedish)</li>
+                                <li class="lanbg">Čeština (Czech)</li>
+                                <li class="lanbg">Magyar (Hungarian)</li>
+                                <li class="lanbg">Română (Romanian)</li>
+                                <li class="lanbg">Български (Bulgarian)</li>
+                                <li class="lanbg">Türkçe (Turkish)</li>
+                                <li class="lanbg">Українська (Ukrainian)</li>
+                                <li class="lanbg">Tiếng Việt (Vietnamese)</li>
+                                <li class="lanbg">Español - Latinoamérica (Spanish - Latin America)</li>
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="ao-playforfree" href="">
+                        <div class="ao-playforfreebutton">
+                            <div class="ao-steamlogo"></div>
+                            <div class="ao-playforfreetxt">Play for Free</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ao-herogrid" style="background-image: url(background.jpg);">
+            <div class="ao-heroheader">
+                Choose your hero
+            </div>
+            <div class="ao-heroheader2">
+                From magical tacticians to fierce brutes and cunning rogues, Dota 2's hero pool is massive and limitlessly diverse. Unleash incredible abilities and devastating ultimates on your way to victory.
+            </div>
+            <div class="ao-herofilter">
+                <div class="ao-filtertxt">Filter Heroes</div>
+                <div class="ao-attribute">
+                    Attribute
+                    <div class="ao-str" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/herogrid/filter-str-active.png);"></div>
+                    <div class="ao-agi" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/herogrid/filter-agi-active.png);"></div>
+                    <div class="ao-int" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/herogrid/filter-int-active.png);"></div>
+                </div>
+                <div class="ao-complexity">
+                    complexity
+                    <div class="ao-compicon ao-compmar" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/herogrid/filter-diamond.png);"></div>
+                    <div class="ao-compicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/herogrid/filter-diamond.png);"></div>
+                    <div class="ao-compicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/herogrid/filter-diamond.png);"></div>
+                </div>
+                <div class="ao-search">
+                    <div class="ao-searchbutton">
+                        <div class="ao-magniglass" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/search.svg);"></div>
+                        <form action="">
+                            <input type="text" name="" id="">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="ao-herogridlist"> 
+                
+                <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png);">
+                    <div class="ao-nameicon">
+                        <img class="ao-atticon" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="">
+                        <div class="ao-name">Abaddon</div>
+                    </div>
+                    <div class="ao-fade"></div>                  
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png);">
+                    <div class="ao-nameicon">
+                        <img class="ao-atticon" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="">
+                        <div class="ao-name">Alchemist</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ancient_apparition.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Ancient Apparition</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Anti-Mage</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/arc_warden.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Arc Warden</div>
+                    </div>
+                </div>
+            </div>
+                <!-- 5 -->
+            
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/axe.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Axe</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bane.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Bane</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/batrider.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Batrider</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/beastmaster.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Beastmaster</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bloodseeker.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Bloodseeker</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bounty_hunter.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Bounty Hunter</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/brewmaster.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Brewmaster</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bristleback.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Bristleback</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/broodmother.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Broodmother</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/centaur.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Centaur Warrunner</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/chaos_knight.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Chaos Knight</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/chen.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Chen</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/clinkz.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Clinkz</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rattletrap.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Clockwerk</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Crystal Maiden</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dark_seer.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Dark Seer</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dark_willow.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Dark Willow</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dawnbreaker.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Dawnbreaker</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dazzle.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Dazzle</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/death_prophet.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Death Prophet</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/disruptor.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Disruptor</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/doom_bringer.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Doom</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dragon_knight.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Dragon Knight</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/drow_ranger.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Drow Ranger</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earth_spirit.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Earth Spirit</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earthshaker.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Earthshaker</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/elder_titan.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Elder Titan</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ember_spirit.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Ember Spirit</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enchantress.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Enchantress</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enigma.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Enigma</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/faceless_void.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Faceless Void</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/grimstroke.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Grimstroke</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/gyrocopter.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Gyrocopter</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/hoodwink.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Hoodwink</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/huskar.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Huskar</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/invoker.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Invoker</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/wisp.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Io</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/jakiro.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Jakiro</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/juggernaut.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Juggernaut</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/keeper_of_the_light.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Keeper of the Light</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/kunkka.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Kunkka</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/legion_commander.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Legion Commander</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/leshrac.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Leshrac</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lich.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Lich</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/life_stealer.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Lifestealer</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lina.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Lina</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lion.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Lion</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lone_druid.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Lone Druid</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/luna.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Luna</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lycan.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Lycan</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/magnataur.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Magnataur</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/marci.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Marci</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mars.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Mars</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/medusa.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Medusa</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/meepo.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Meepo</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mirana.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Mirana</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/monkey_king.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Monkey King</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/morphling.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Morphling</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/muerta.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Muerta</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/naga_siren.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Naga Siren</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/furion.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Nature's Prophet</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/necrolyte.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png   " alt="" class="ao-atticon">
+                        <div class="ao-name">Necrophos</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/night_stalker.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Night Stalker</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/nyx_assassin.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Nyx Assassin</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ogre_magi.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Ogre Magi</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/omniknight.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Omniknight</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/oracle.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Oracle</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/obsidian_destroyer.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Outworld Destroyer</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pangolier.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Pangolier</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phantom_assassin.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Phantom Assassin</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phantom_lancer.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Phantom Lancer</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phoenix.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Phoenix</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/primal_beast.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Primal Beast</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Puck</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Pudge</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pugna.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Pugna</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/queenofpain.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Queen of Pain</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/razor.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Razor</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/riki.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Riki</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rubick.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Rubick</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sand_king.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Sand King</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_demon.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Shadow Demon</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/nevermore.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Shadow Fiend</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_shaman.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Shadow Shaman</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/silencer.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Silencer</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skywrath_mage.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Skywrath Mage</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slardar.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Slardar</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slark.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Slark</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/snapfire.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Snapfire</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sniper.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Sniper</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/spectre.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Spectre</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/spirit_breaker.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Spirit Breaker</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm_spirit.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Storm Spirit</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Sven</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/techies.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Techies</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/templar_assassin.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Templar Assassin</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/terrorblade.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Terrorblade</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tidehunter.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Tidehunter</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shredder.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Timbersaw</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tinker.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Tinker</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tiny.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Tiny</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/treant.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Treant Protector</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/troll_warlord.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Troll Warlord</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tusk.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Tusk</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abyssal_underlord.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Underlord</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/undying.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Undying</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ursa.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Ursa</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengefulspirit.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Vengeful Spirit</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/venomancer.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Venomancer</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/viper.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Viper</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/visage.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Visage</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/void_spirit.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Void Spirit</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/warlock.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Warlock</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/weaver.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Weaver</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windrunner.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Windrunner</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="ao-hero5">
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/winter_wyvern.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Winter Wyvern</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/witch_doctor.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Witch Doctor</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skeleton_king.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Wraith King</div>
+                    </div>
+                </div>
+                <div class="ao-heroicon" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zuus.png)">
+                    <div class="ao-nameicon">
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" alt="" class="ao-atticon">
+                        <div class="ao-name">Zeus</div>
+                    </div>
+                </div>
+            </div>           
+            </div>
+        </div>
+        <div class="ao-bottomlogo">
+            <div class="ao-bottomlogo2">
+                <div class="ao-bottomlogovalve">
+                    <img class="botlogo" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/valve_logo.png" alt="">
+                </div>
+                <div class="ao-bottomlogodota2">
+                    <img class="botlogo2" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/dota_footer_logo.png" alt="">
+                </div>
+            </div>
+            <div class="ao-bottomtxt">Dota and the Dota logo are trademarks and/or registered trademarks of Valve Corporation. 2022 Valve Corporation, all rights reserved.</div>
+        </div>
+    </div>
+</body>
+</html>
